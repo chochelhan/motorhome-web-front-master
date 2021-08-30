@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75.924" height="74.58" viewBox="0 0 75.924 74.58">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="이벤트_종료" transform="rotate(-14.98 2176.046 2646.705)">
+        <text id="이벤트_종료-2" fill="#fff" font-family="NanumGothicBold, NanumGothic" font-size="13px" letter-spacing="-0.055em" transform="translate(785.426 -422.987)">
+            <tspan x="-30.583" y="0">이벤트 종료</tspan>
+        </text>
+        <path id="선_137" d="M0 0L70.879 0" class="cls-2" transform="translate(751.438 -439.341)"/>
+        <path id="선_138" d="M0 0L70.879 0" class="cls-2" transform="translate(751.438 -415.251)"/>
+        <path id="패스_768" d="M791.618-436.085a19.033 19.033 0 0 1-14.854 7.11 19.032 19.032 0 0 1-14.852-7.11" class="cls-2" transform="translate(10.113 20.834)"/>
+        <path id="패스_769" d="M761.981-444.933a19.029 19.029 0 0 1 14.715-6.939 19.036 19.036 0 0 1 14.717 6.939" class="cls-2" transform="translate(10.181 5.589)"/>
+        <path id="패스_770" d="M811.282-435.772a30.085 30.085 0 0 1-28.056 18.172 30.457 30.457 0 0 1-28.007-18.485" class="cls-2" transform="translate(3.651 20.834)"/>
+        <path id="패스_771" d="M755.256-439.342a30.453 30.453 0 0 1 27.934-18.318 30.457 30.457 0 0 1 27.842 18.1" class="cls-2" transform="translate(3.687)"/>
+    </g>
+</svg>

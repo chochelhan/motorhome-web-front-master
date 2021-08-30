@@ -1,0 +1,274 @@
+@import './variables.scss';
+@import './extension.scss';
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+// $global-primary-background: #91353a;
+// $global-link-color: #91353a;
+// $form-range-thumb-height: 25px;
+// $form-range-track-height: 5px;
+
+// $button-secondary-background: #d4d4d4;
+// $button-secondary-color: #4b4b4b;
+// $button-secondary-hover-color: #4b4b4b;
+// $button-secondary-active-color: #4b4b4b;
+
+$offcanvas-bar-background: #ffffff;
+$offcanvas-bar-color-mode: dark;
+
+* {
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input, textarea, [contenteditable], [contenteditable] * {
+  user-select: initial;
+  outline: none;
+  font-family: initial !important;
+  &:focus {
+    user-select: initial;
+  }
+}
+body {
+  height: 100vh;
+}
+#__nuxt {
+  height: 100vh;
+}
+#__layout {
+  height: 100vh;
+}
+main {
+  height: 100vh;
+}
+a {
+  outline: none;
+  color: $global-color !important;
+}
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
+a:hover {
+  text-decoration: none !important;
+}
+a:active, a:focus, button:focus {
+  outline: none;
+}
+// a .uk-icon * {
+//   color: $global-color;
+// }
+#__nuxt {
+  overflow: auto;
+}
+.uk-text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.input-hidden-file {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.article-rounded {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #ffffff;
+  mask-image: radial-gradient(white, black);
+}
+.color-primary {
+  color: $global-primary-color !important;
+}
+.sheet {
+  border-radius: 20px;
+  padding: 18px 18px 21px 15px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
+.bottom-sheet {
+  @extend .sheet;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  button {
+    padding: 0;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    color: #5d5d5d;
+    background-color: #f0f0f0;
+    border: none;
+    margin-left: 5px;
+    &:first-child {
+      margin-left: 0;
+    }
+    &.active {
+      background-color: #409aff;
+      color: #ffffff;
+    }
+  }
+}
+
+@mixin hook-base-hr() {
+  * + hr, * + .uk-hr {
+    margin-top: 15px;
+  }
+  hr, .uk-hr {
+    margin: 0 0 15px 0;
+  }
+}
+
+@import 'uikit/src/scss/mixins-theme.scss';
+
+$button-border-radius: 10px;
+@mixin hook-button-misc() {
+  .uk-button-group {
+    border-radius: $button-border-radius;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+    .uk-button {
+      box-shadow: none;
+      border: none;
+      border-radius: 0;
+    }
+  }
+}
+
+@mixin hook-form() {
+  border-bottom: $form-border-width solid $form-border;
+  transition: 0.2s ease-in-out;
+  transition-property: color, background-color, border;
+}
+
+@mixin hook-button() {
+  &.uk-button-default {
+    border-color: #16adb9;
+    color: #16adb9 !important;
+    .uk-icon * {
+      color: #16adb9;
+    }
+  }
+  &.uk-button-primary {
+  }
+  &.uk-button-link:hover, &.uk-button-link:focus {
+    color: #16adb9;
+    text-decoration: none;
+  }
+}
+
+@mixin hook-button-text() {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@mixin hook-dropdown() {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: -7px;
+    width: 10px;
+    height: 7px;
+    clip-path: polygon(100% 100%, 0 100%, 50% 0%);
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  }
+}
+
+.uk-radius {
+  border-radius: 20px !important;
+}
+.uk-top-radius {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.uk-bottom-radius {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.uk-modal-confirm {
+  .uk-modal-dialog {
+    max-width: calc(100% - 50px) !important;
+    border-radius: 20px;
+    overflow: hidden;
+    .uk-modal-body {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+  .uk-modal-footer {
+    padding: 0;
+    display: flex;
+    height: 58px;
+    button {
+      width: 50%;
+      border: none;
+      &.uk-button-default {
+        background-color: #f0f0f0;
+        color: #161616 !important;
+      }
+    }
+  }
+}
+
+mark.comment-mention {
+  background-color: transparent;
+  color: #16adb9;
+}
+
+// @mixin hook-form-range-thumb(){
+// 	border-color: $global-primary-background;
+// }
+
+@import 'uikit/src/scss/uikit-theme.scss';
+.swal-overlay {
+  outline: none;
+  user-select: none;
+}
+.swal-modal {
+  overflow: hidden;
+}
+.swal-text {
+  margin: 30px 0;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #161616;
+  line-height: 1.5;
+  &:first-child {
+    margin-top: 30px;
+  }
+}
+.swal-footer {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+}
+.swal-button-container {
+  margin: 0;
+  flex-grow: 1;
+  .swal-button {
+    width: 100%;
+    border-radius: 0;
+    padding: 18px 24px;
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+  .swal-button--confirm {
+    background-color: #16adb9;
+  }
+}
+@media (max-width: 500px) {
+  .swal-modal {
+      width: calc(100% - 80px);
+  }
+}
+

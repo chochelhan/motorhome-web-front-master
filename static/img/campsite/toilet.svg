@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.819" height="18.96" viewBox="0 0 30.819 18.96">
+    <defs>
+        <style>
+            .cls-1{fill:#161615}
+        </style>
+    </defs>
+    <g id="화장실" transform="translate(-14.46 -104.524)">
+        <g id="그룹_1986">
+            <g id="그룹_1985">
+                <path id="패스_1888" d="M20.57 123.174a6.111 6.111 0 1 1 6.111-6.111 6.117 6.117 0 0 1-6.111 6.111zm0-11.221a5.111 5.111 0 1 0 5.111 5.11 5.115 5.115 0 0 0-5.111-5.11z" class="cls-1"/>
+            </g>
+        </g>
+        <g id="그룹_1988">
+            <g id="그룹_1987">
+                <path id="사각형_992" d="M0 0H6.065V1H0z" class="cls-1" transform="rotate(-45 148.354 27.113)"/>
+            </g>
+        </g>
+        <g id="그룹_1990">
+            <g id="그룹_1989">
+                <path id="패스_1889" d="M29.422 113.28h-1v-3.9h-3.788v-1h4.788z" class="cls-1"/>
+            </g>
+        </g>
+        <g id="그룹_1992">
+            <g id="그룹_1991">
+                <path id="패스_1890" d="M37.545 117.92a6.1 6.1 0 0 1-4.321-1.787 6.118 6.118 0 1 1 4.321 1.787zm-3.614-2.494a5.111 5.111 0 1 0 0-7.228 5.119 5.119 0 0 0 0 7.228z" class="cls-1"/>
+            </g>
+        </g>
+        <g id="그룹_1994">
+            <g id="그룹_1993">
+                <path id="사각형_993" d="M0 0H1V6.065H0z" class="cls-1" transform="translate(37.045 117.419)"/>
+            </g>
+        </g>
+        <g id="그룹_1996">
+            <g id="그룹_1995">
+                <path id="사각형_994" d="M0 0H6.213V1H0z" class="cls-1" transform="translate(34.439 120.386)"/>
+            </g>
+        </g>
+        <g id="그룹_1998" style="mix-blend-mode:multiply;isolation:isolate">
+            <g id="그룹_1997">
+                <rect id="사각형_995" width="10.104" height="10.104" fill="#16adb9" rx="5.052" transform="translate(35.175 104.524)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,70 @@
+.neumorphism {
+  position: relative;
+  * {
+    z-index: 1;
+  }
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 3px -2px #a8afc4;
+    z-index: 0;
+  }
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    box-shadow: inset -4px -4px 3px -2px #ffffff;
+    z-index: 0;
+  }
+}
+
+.pinch-zoom-wrapper {
+  .pinch-zoom-content {
+    flex-grow: 1;
+  }
+}
+
+.loader {
+  position: relative;
+  &::after {
+    $spinner-size: 80px;
+    content: '';
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: $spinner-size;
+    height: $spinner-size;
+    left: calc(50% - #{$spinner-size / 2});
+    top: calc(50% - #{$spinner-size / 2});
+    border: solid transparent 7px;
+    border-left-color: $global-primary-color;
+    border-right-color: $global-primary-color;
+    border-radius: $spinner-size;
+    animation-name: spinner;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  motorhome-web-front:
+    container_name: motorhome-web-front
+    image: motorhome-web-front
+    restart: always
+    ports:
+     - "60001:60001"
+    networks:
+      - docker_network
+networks:
+  docker_network:
+    name: docker_network
+    driver: bridge

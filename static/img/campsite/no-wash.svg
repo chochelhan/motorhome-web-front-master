@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.78" height="25.688" viewBox="0 0 18.78 25.688">
+    <defs>
+        <style>
+            .cls-1{fill:#848484}
+        </style>
+    </defs>
+    <g id="샤워" transform="translate(-22.49 -201.768)">
+        <g id="그룹_2095">
+            <g id="그룹_2070">
+                <g id="그룹_2069">
+                    <path id="패스_1908" d="M32.109 217.932h-8.085V212.2l4.584-4v-4.441h1v4.9l-4.584 4v4.274h7.085z" class="cls-1"/>
+                </g>
+            </g>
+            <g id="그룹_2072">
+                <g id="그룹_2071">
+                    <path id="패스_1909" d="M40.194 217.932h-8.085v-1h7.085v-4.274l-4.584-4v-4.9h1v4.442l4.584 4z" class="cls-1"/>
+                </g>
+            </g>
+            <g id="그룹_2074">
+                <g id="그룹_2073">
+                    <path id="사각형_1004" d="M0 0H3.313V1H0z" class="cls-1" transform="rotate(-80.97 141.995 97.418)"/>
+                </g>
+            </g>
+            <g id="그룹_2076">
+                <g id="그룹_2075">
+                    <path id="사각형_1005" d="M0 0H3.523V1H0z" class="cls-1" transform="matrix(.029 -1 1 .029 27.483 222.642)"/>
+                </g>
+            </g>
+            <g id="그룹_2078">
+                <g id="그룹_2077">
+                    <path id="사각형_1006" d="M0 0H1V3.313H0z" class="cls-1" transform="rotate(-9.03 1407.771 -135.61)"/>
+                </g>
+            </g>
+            <g id="그룹_2080">
+                <g id="그룹_2079">
+                    <path id="사각형_1007" d="M0 0H1V3.523H0z" class="cls-1" transform="rotate(-1.7 7403.144 -1075.754)"/>
+                </g>
+            </g>
+            <g id="그룹_2082">
+                <g id="그룹_2081">
+                    <path id="사각형_1008" d="M0 0H1V3.542H0z" class="cls-1" transform="translate(31.379 219.125)"/>
+                </g>
+            </g>
+            <g id="그룹_2084">
+                <g id="그룹_2083">
+                    <path id="사각형_1009" d="M0 0H3.324V1H0z" class="cls-1" transform="rotate(-79.82 147.076 100.169)"/>
+                </g>
+            </g>
+            <g id="그룹_2086">
+                <g id="그룹_2085">
+                    <path id="사각형_1010" d="M0 0H3.523V1H0z" class="cls-1" transform="rotate(-88.1 131.078 99.815)"/>
+                </g>
+            </g>
+            <g id="그룹_2088">
+                <g id="그룹_2087">
+                    <path id="사각형_1011" d="M0 0H1V3.324H0z" class="cls-1" transform="rotate(-10.196 1276.013 -110.42)"/>
+                </g>
+            </g>
+            <g id="그룹_2090">
+                <g id="그룹_2089">
+                    <path id="사각형_1012" d="M0 0H1V3.523H0z" class="cls-1" transform="rotate(-1.914 6720.725 -955.539)"/>
+                </g>
+            </g>
+            <g id="그룹_2092">
+                <g id="그룹_2091">
+                    <path id="사각형_1013" d="M0 0H1V3.542H0z" class="cls-1" transform="translate(31.379 223.908)"/>
+                </g>
+            </g>
+            <g id="그룹_2094">
+                <g id="그룹_2093">
+                    <path id="사각형_1014" d="M0 0H15.431V1H0z" class="cls-1" transform="translate(24.263 214.67)"/>
+                </g>
+            </g>
+        </g>
+        <g id="그룹_2097" style="mix-blend-mode:multiply;isolation:isolate">
+            <g id="그룹_2096">
+                <rect id="사각형_1015" width="10.104" height="10.104" fill="#b5b7bd" rx="5.052" transform="translate(25.07 201.768)"/>
+            </g>
+        </g>
+    </g>
+</svg>

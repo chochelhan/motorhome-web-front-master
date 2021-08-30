@@ -1,0 +1,56 @@
+{
+  "name": "motorhome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "60001"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "pm2": "pm2 start"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.19.1",
+    "@editorjs/image": "^2.6.0",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@sentry/tracing": "^6.2.2",
+    "@sentry/vue": "^6.2.2",
+    "animejs": "^3.2.1",
+    "axios": "^0.20.0",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "link-preview-js": "^2.0.4",
+    "mark.js": "^8.11.1",
+    "md5": "^2.3.0",
+    "moment": "^2.27.0",
+    "nuxt": "^2.14.4",
+    "nuxt-session": "^1.0.3",
+    "qs": "^6.9.4",
+    "striptags": "^3.1.1",
+    "sweetalert": "^2.1.2",
+    "ua-parser-js": "^0.7.22",
+    "uikit": "motorhome/uikit",
+    "uikit-icons": "^0.5.0",
+    "vue-clipboard2": "^0.3.1",
+    "vue-editor-js": "^2.0.2",
+    "vue-pinch-zoom": "^1.0.1",
+    "vue-textarea-autosize": "^1.1.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.1"
+  }
+}

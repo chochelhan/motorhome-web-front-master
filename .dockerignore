@@ -1,0 +1,6 @@
+.git
+.gitignore
+.svn
+.nuxt
+dist
+node_modules

@@ -1,0 +1,33 @@
+$header-height: 50px;
+$footer-height: 60px;
+$submenu-height: 55px;
+$activity-header-height: 50px;
+$activity-footer-height: 50px;
+$layout-margin: 10px;
+$content-margin: 5px;
+$global-radius: 5px;
+$global-primary-background: #16adb9;
+$button-link-color: $global-primary-background;
+$global-color: #595959;
+
+$iphone-x-xs-safe-top: 44px;
+$iphone-x-xs-safe-bottom: 34px;
+
+$iphone-xmax-xr-safe-top: 44px;
+$iphone-xmax-xr-safe-bottom: 34px;
+
+$iphone-12-safe-top: 44px;
+$iphone-12-safe-bottom: 34px;
+
+$iphone-status-height: 20px;
+$android-status-height: 20px;
+
+$iphone-6-safe-top: 20px;
+$iphone-6-safe-bottom: 0;
+
+$dropdown-padding: 10px 15px;
+$dropdown-min-width: 140px;
+
+@import 'uikit/src/scss/variables-theme.scss';
+
+$global-primary-color: $global-primary-background;
